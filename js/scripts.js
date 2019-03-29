@@ -9,6 +9,23 @@ $(document).ready(function(){
       var question4 = document.getElementById('question4').value;
       var question5 = document.getElementById('question5').value;
       var question6 = document.getElementById('question6').value;
+      var answerCorrect = 0;
+
+      if (question1=) {
+        answerCorrect++
+      }
+      if (question2=) {
+        answerCorrect++
+      }
+      if (question3=) {
+        answerCorrect++
+      }
+      if (question4=) {
+        answerCorrect++
+      }
+      if (question5=) {
+        answerCorrect++
+      }
     }
   });
 });
