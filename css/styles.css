@@ -1,3 +1,6 @@
 .card-deck{
   display: none;
 }
+#submit{
+  display: none;
+}
