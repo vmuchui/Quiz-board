@@ -4,3 +4,18 @@
 #submit{
   display: none;
 }
+#showFirst{
+  display: none;
+}
+#showSecond{
+  display: none;
+}
+#showLast{
+  display: none;
+}
+#openNext{
+  display: none;
+}
+#openLast{
+  display: none;
+}
