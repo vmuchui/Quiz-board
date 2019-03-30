@@ -1,34 +1,29 @@
 //back-end logic
+function checkResponse(){
+  var question1 = document.getElementById('question1').value;
+  var question2 = document.getElementById('question2').value;
+  var question3 = document.getElementById('question3').value;
+  var question4 = document.getElementById('question4').value;
+  var question5 = document.getElementById('question5').value;
+  var answerCorrect = 0;
 
-$(document).ready(function(){
-  $("#submit").click(function(){
-    function checkResponse() {
-      var question1 = document.questions.question1.value;
-      var question2 = document.questions.question2.value;
-      var question3 = document.questions.question3.value;
-      var question4 = document.questions.question4.value;
-      var question5 = document.questions.question5.value;
-      var question6 = document.questions.question6.value;
-      var answerCorrect = 0;
-
-      if (question1 === "ECMAjavascript") {
-        answerCorrect++
-      }
-      if (question2 === "Modulus") {
-        answerCorrect++
-      }
-      if (question3 === "ECMA") {
-        answerCorrect++
-      }
-      if (question4 === "console") {
-        answerCorrect++
-      }
-      if (question5 === "Cascading") {
-        answerCorrect++
-      }
-    }
-  });
-});
+  if (question1 === "ECMAjavascript") {
+    answerCorrect++
+  }
+  if (question2 === "Modulus") {
+    answerCorrect++
+  }
+  if (question3 === "ECMA") {
+    answerCorrect++
+  }
+  if (question4 === "console") {
+    answerCorrect++
+  }
+  if (question5 === "Cascading") {
+    answerCorrect++
+  }
+  alert("you have " + answerCorrect +".")
+}
 
 
 
@@ -46,7 +41,6 @@ $(document).ready(function(){
     $("#openLast").fadeIn();
     $("#showFirst").fadeOut();
     $("#openNext").fadeOut();
-
   });
   $("#openLast").click(function(){
     $("#showLast").fadeIn();

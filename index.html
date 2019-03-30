@@ -15,11 +15,12 @@
     <div class="container">
       <div class="jumbotron">
         <h1>Elegance High School.</h1>
-        <p class="disappear">Hey good people just click <button class="btn btn-success" type="button" name="button" id="button">here</button>  to start your quiz!!!</p>
+        <h4>Congratulations for making it this far in your programming lessons. We are very proud to be part of your journey.Therefore as part of your journey we hereby give this quiz as a test of how much you have learnt in this course.<strong><u>GOOD LUCK</u>!!!</strong></h4>
+        <p class="disappear">Hey good people just click <button class="btn btn-success" type="button" name="button" id="button">here</button> to start your quiz!!!</p>
       </div>
       <div class="card-deck" id="showFirst">
         <div class="card">
-          <h1 class="card-title" id="question1">Which is the other name for javascript?</h1>
+          <h1 class="card-title card-header" id="question1">1) Which is the other name for javascript?</h1>
           <form class="form-group" action="index.html" method="post" id="questions">
             <div class="radio">
               <label>
@@ -42,7 +43,7 @@
           </form>
         </div>
         <div class="card">
-          <h1 class="card-title" id="question2">What is the operation that gives you the answer as the remainder of a division sum?</h1>
+          <h1 class="card-title card-header" id="question2">2) What is the operation that gives you the answer as the remainder of a division sum?</h1>
           <form class="form-group" action="index.html" method="post" id="questions">
             <div class="radio">
               <label>
@@ -68,7 +69,7 @@
       <button class="btn btn-warning" type="button" name="button" id="openNext">Next</button>
       <div class="card-deck" id="showSecond">
         <div class="card">
-          <h1 class="card-title" id="question3">Which organisation maintains Javascript?</h1>
+          <h1 class="card-title card-header" id="question3">3) Which organisation maintains Javascript?</h1>
           <form class="form-group" action="index.html" method="post" id="questions">
             <div class="radio">
               <label>
@@ -91,7 +92,7 @@
           </form>
         </div>
         <div class="card">
-          <h1 class="card-title" id="question4">What is the name of the tool in google chrome that helps us manipulate js code?</h1>
+          <h1 class="card-title card-header" id="question4">4) What is the name of the tool in google chrome that helps us manipulate js code?</h1>
           <form class="form-group" action="index.html" method="post" id="questions">
             <div class="radio">
               <label>
@@ -117,7 +118,7 @@
       <button class="btn btn-warning" type="button" name="button" id="openLast">Next</button>
       <div class="card-deck" id="showLast">
         <div class="card">
-          <h1 class="card-title" id="question5">What is the meaning of CSS?</h1>
+          <h1 class="card-title card-header" id="question5">5) What is the meaning of CSS?</h1>
           <form class="form-group" action="index.html" method="post" id="questions">
             <div class="radio">
               <label>
@@ -140,7 +141,7 @@
           </form>
         </div>
       </div>
-      <button class="btn btn-primary" type="button" name="button" id="submit" onclick="">Submit</button>
+      <button class="btn btn-primary" type="button" name="button" id="submit" onclick="checkResponse();">Submit</button>
     </div>
   </body>
 
