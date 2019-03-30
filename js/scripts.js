@@ -7,19 +7,19 @@ function checkResponse(){
   var question5 = document.getElementById('question5').value;
   var answerCorrect = 0;
 
-  if (question1 === "ECMAjavascript") {
+  if (question1 == "ECMAjavascript".value) {
     answerCorrect++
   }
-  if (question2 === "Modulus") {
+  if (question2 == "Modulus".value) {
     answerCorrect++
   }
-  if (question3 === "ECMA") {
+  if (question3 == "ECMA".value) {
     answerCorrect++
   }
-  if (question4 === "console") {
+  if (question4 == "console".value) {
     answerCorrect++
   }
-  if (question5 === "Cascading") {
+  if (question5 == "Cascading".value) {
     answerCorrect++
   }
   alert("you have " + answerCorrect +".")
