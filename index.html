@@ -3,7 +3,7 @@
 
   <head>
     <meta charset="utf-8">
-    <link rel="shortcut icon" href=".ico">
+    <link rel="shortcut icon" href="https://previews.123rf.com/images/vantuz/vantuz1502/vantuz150200710/36960602-letter-q-with-blue-fire.jpg">
     <title>Quiz_Board</title>
     <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
     <link rel="stylesheet" href="css/styles.css" type="text/css">
@@ -20,7 +20,7 @@
       <div class="card-deck" id="showFirst">
         <div class="card">
           <h1 class="card-title" id="question1">Which is the other name for javascript?</h1>
-          <form class="form-group" action="index.html" method="post">
+          <form class="form-group" action="index.html" method="post" id="questions">
             <div class="radio">
               <label>
                 <input type="radio" name="question1" value="ECMAjavascript">
@@ -43,7 +43,7 @@
         </div>
         <div class="card">
           <h1 class="card-title" id="question2">What is the operation that gives you the answer as the remainder of a division sum?</h1>
-          <form class="form-group" action="index.html" method="post">
+          <form class="form-group" action="index.html" method="post" id="questions">
             <div class="radio">
               <label>
                 <input type="radio" name="question2" value="Division">
@@ -69,7 +69,7 @@
       <div class="card-deck" id="showSecond">
         <div class="card">
           <h1 class="card-title" id="question3">Which organisation maintains Javascript?</h1>
-          <form class="form-group" action="index.html" method="post">
+          <form class="form-group" action="index.html" method="post" id="questions">
             <div class="radio">
               <label>
                 <input type="radio" name="question3" value="SEO">
@@ -92,7 +92,7 @@
         </div>
         <div class="card">
           <h1 class="card-title" id="question4">What is the name of the tool in google chrome that helps us manipulate js code?</h1>
-          <form class="form-group" action="index.html" method="post">
+          <form class="form-group" action="index.html" method="post" id="questions">
             <div class="radio">
               <label>
                 <input type="radio" name="question4" value="console">
@@ -118,7 +118,7 @@
       <div class="card-deck" id="showLast">
         <div class="card">
           <h1 class="card-title" id="question5">What is the meaning of CSS?</h1>
-          <form class="form-group" action="index.html" method="post">
+          <form class="form-group" action="index.html" method="post" id="questions">
             <div class="radio">
               <label>
                 <input type="radio" name="question5" value="Cascading">
@@ -140,7 +140,7 @@
           </form>
         </div>
       </div>
-      <button class="btn btn-primary" type="button" name="button" id="submit" onclick="checkResponse();">Submit</button>
+      <button class="btn btn-primary" type="button" name="button" id="submit" onclick="">Submit</button>
     </div>
   </body>
 
