@@ -8,21 +8,21 @@ function checkResponse(){
   var answerCorrect = 0;
 
   if (question1 == "ECMAjavascript".value) {
-    answerCorrect++
+    answerCorrect++;
   }
   if (question2 == "Modulus".value) {
-    answerCorrect++
+    answerCorrect++;
   }
   if (question3 == "ECMA".value) {
-    answerCorrect++
+    answerCorrect++;
   }
-  if (question4 == "console".value) {
-    answerCorrect++
+  if (question4 == "Javascript console".value) {
+    answerCorrect++;
   }
-  if (question5 == "Cascading".value) {
-    answerCorrect++
+  if (question5 == "Cascading Style Sheets".value) {
+    answerCorrect++;
   }
-  alert("you have " + answerCorrect +".")
+  alert(answerCorrect)
 }
 
 
@@ -48,4 +48,7 @@ $(document).ready(function(){
     $("#showSecond").fadeOut();
     $("#openLast").fadeOut();
   });
+  $("#submit").click(function(){
+    $("#afterSubmit").show();
+  })
 });

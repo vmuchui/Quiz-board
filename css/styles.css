@@ -1,6 +1,7 @@
 .card-deck{
   display: none;
   padding: 12px 60px 12px 40px;
+  opacity: 0.78;
 }
 #submit{
   display: none;
@@ -23,4 +24,11 @@
 }
 #openLast{
   display: none;
+}
+#afterSubmit{
+  display: none;
+}
+body{
+  background-image: url(https://www.faylib.org/sites/default/files/youth%20coding%20club.jpg);
+  background-attachment: fixed;
 }
