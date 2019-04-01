@@ -15,7 +15,6 @@ $(document).ready(function() {
     }
     if (score < 5) {
       alert("Please retake your test!!");
-      document.location.reload();
     } else {
       alert("You have answered all the questions!!!Good Job.");
     }
@@ -30,7 +29,8 @@ $(document).ready(function() {
     for (var index = 0; index < arrSecond.length; index += 1) {
       total += arrSecond[index];
     }
-    document.getElementById('finalscore').innerHTML = "you have scored " + total + "%";
+    $("#scoreSheet").slideDown();
+    document.getElementById('finalscore').innerHTML = "is " + total + "%";
     if (total >= 80) {
       document.getElementById('message').innerHTML = "You are awesooome!";
     } else if (total >= 50 && total < 80) {
@@ -81,5 +81,6 @@ $(document).ready(function() {
     $("#openLast").fadeOut();
     $("#footer").slideDown();
   });
+
 
 });

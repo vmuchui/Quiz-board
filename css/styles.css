@@ -41,6 +41,8 @@
 #afterSubmit{
   display: none;
 }
+#scoreSheet{
+}
 body{
   background-image: url(https://www.faylib.org/sites/default/files/youth%20coding%20club.jpg);
   background-attachment: fixed;
