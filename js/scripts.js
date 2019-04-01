@@ -22,7 +22,7 @@ $(document).ready(function() {
 
     var arrSecond = [];
     for (var index = 0; index < arrayFirst.length; index += 1) {
-      var questions = parseInt(("input[name=" + arrayFirst[index] + "]:checked").value());
+      var questions = parseInt($("input:radio[name=" + arrayFirst[index] + "]:checked").val());
       arrSecond.push(questions);
     }
     var total = 0;
@@ -30,7 +30,7 @@ $(document).ready(function() {
       total += arrSecond[index];
     }
     $("#scoreSheet").slideDown();
-    document.getElementById('finalscore').innerHTML = "is " + total + "%";
+    document.getElementById('finalscore').innerHTML = "Your total is " + total + "%";
     if (total >= 80) {
       document.getElementById('message').innerHTML = "You are awesooome!";
     } else if (total >= 50 && total < 80) {
