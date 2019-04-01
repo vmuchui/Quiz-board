@@ -3,7 +3,7 @@ $(document).ready(function() {
   $("#submit").click(function() {
     var arrayFirst = [];
     for (i = 1; i <= 5; i++) {
-      query = "quiz" + i;
+      var query = "#questions" + i;
       arrayFirst.push(query);
     }
     var inputs = document.getElementById("questions").elements;
@@ -22,7 +22,7 @@ $(document).ready(function() {
 
     var arrSecond = [];
     for (var index = 0; index < arrayFirst.length; index += 1) {
-      var questions = parseInt($("input[name=" + arrayFirst[index] + "]:checked").val());
+      var questions = parseInt(("input[name=" + arrayFirst[index] + "]:checked").value());
       arrSecond.push(questions);
     }
     var total = 0;
@@ -43,19 +43,7 @@ $(document).ready(function() {
   });
 });
 
-// scrolldown bar
-$(document).ready(function() {
-  $(window).scroll(function() {
-    var a = $(window).scrollTop(); //shows position of the scroll in pixels
-    var b = $(document).height(); //full height of doc
-    var c = $(window).height(); //window height
-    scrollPercent = (a / (b - c)) * 100;
-    var position = scrollPercent;
 
-    $("#progressbar").attr('value', position); //setting the value of the progressbar
-
-  });
-});
 
 
 
