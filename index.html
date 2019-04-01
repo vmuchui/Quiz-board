@@ -1,151 +1,188 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 
-  <head>
-    <meta charset="utf-8">
-    <link rel="shortcut icon" href="https://previews.123rf.com/images/vantuz/vantuz1502/vantuz150200710/36960602-letter-q-with-blue-fire.jpg">
-    <title>Quiz_Board</title>
-    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
-    <link rel="stylesheet" href="css/styles.css" type="text/css">
-    <script src="js/jquery-3.3.1.js" type="text/javascript"></script>
-    <script src="js/scripts.js" type="text/javascript"></script>
-  </head>
+<head>
+  <meta charset="utf-8">
+  <link rel="shortcut icon" href="https://previews.123rf.com/images/vantuz/vantuz1502/vantuz150200710/36960602-letter-q-with-blue-fire.jpg">
+  <title>Quiz_Board</title>
+  <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Cinzel|Gloria+Hallelujah|Inconsolata|Luckiest+Guy|Mrs+Sheppards|Permanent+Marker" rel="stylesheet">
+  <script src="js/jquery-3.3.1.js" type="text/javascript"></script>
+  <script src="js/scripts.js" type="text/javascript"></script>
+</head>
 
-  <body>
-    <div class="container">
-      <div class="jumbotron">
-        <h1>Elegance High School.</h1>
-        <h4>Congratulations for making it this far in your programming lessons. We are very proud to be part of your journey.Therefore as part of your journey we hereby give this quiz as a test of how much you have learnt in this course and as a member of the <em>let's code club</em>.<strong><u>GOOD LUCK</u>!!!</strong></h4>
-        <p class="disappear">Hey just click <button class="btn btn-success" type="button" name="button" id="button">here</button> to start your quiz!!!</p>
-      </div>
+<body>
+
+  <div class="container">
+    <div class="jumbotron">
+
+      <h1> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCVhkY811n7YUWNwZwRGduGiv6BXzoVNWF-Rujae5oMQe0u_L3" id="#logo" alt="logo" style="height:50px;width:50px"> Elegance High School.</h1>
+      <h4>Congratulations for making it this far in your programming lessons. We are very proud to be part of your journey.Therefore as part of your journey we hereby give this quiz as a test of how much you have learnt in this course and as a member
+        of the <em>let's code club</em>.<strong><u>GOOD LUCK</u>!!!</strong></h4>
+      <p class="disappear">Hey just click <button class="btn btn-success" type="button" name="button" id="button">here</button> to start your quiz!!!</p>
+    </div>
+    <form class="form-group" action="index.html" method="post" id="questions">
       <div class="card-deck" id="showFirst">
         <div class="card">
-          <h1 class="card-title card-header" >1) Which is the other name for javascript?</h1>
-          <form class="form-group" action="index.html" method="post">
-            <div class="radio">
-              <label>
-                <input type="radio" name="question1"  id="question1" value="ECMAjavascript">
-                ECMAjavascript
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="question1"  id="question1" value="HTML">
-                HTML
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="question1"  id="question1" value="CSS">
-                CSS
-              </label>
-            </div>
-          </form>
+          <h1 class="card-title card-header">1) Which is the other name for javascript?</h1>
+
+          <div class="radio">
+            <label>
+              <input type="radio" name="question1" id="question1" value="1">
+              ECMAjavascript
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="question1" id="question1" value="0">
+              HTML
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="question1" id="question1" value="0">
+              CSS
+            </label>
+          </div>
+
         </div>
         <div class="card">
-          <h1 class="card-title card-header" >2) What is the operation that gives you the answer as the remainder of a division sum?</h1>
-          <form class="form-group" action="index.html" method="post">
-            <div class="radio">
-              <label>
-                <input type="radio" name="question2"  id="question2" value="Division">
-                Division
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="question2"  id="question2" value="Multiplication">
-                Multiplication
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="question2"  id="question2" value="Modulus">
-                Modulus
-              </label>
-            </div>
-          </form>
+          <h1 class="card-title card-header">2) What is the operation that gives you the answer as the remainder of a division sum?</h1>
+
+          <div class="radio">
+            <label>
+              <input type="radio" name="question2" id="question2" value="0">
+              Division
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="question2" id="question2" value="0">
+              Multiplication
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="question2" id="question2" value="1">
+              Modulus
+            </label>
+          </div>
+
         </div>
       </div>
       <button class="btn btn-warning" type="button" name="button" id="openNext">Next</button>
       <div class="card-deck" id="showSecond">
         <div class="card">
-          <h1 class="card-title card-header" >3) Which organisation maintains Javascript?</h1>
-          <form class="form-group" action="index.html" method="post" >
-            <div class="radio">
-              <label>
-                <input type="radio" name="question3" id="question3" value="SEO">
-                SEO
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="question3" id="question3" value="DOM">
-                DOM
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="question3" id="question3" value="ECMA">
-                ECMA
-              </label>
-            </div>
-          </form>
+          <h1 class="card-title card-header">3) Which organisation maintains Javascript?</h1>
+
+          <div class="radio">
+            <label>
+              <input type="radio" name="question3" id="question3" value="0">
+              SEO
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="question3" id="question3" value="0">
+              DOM
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="question3" id="question3" value="1">
+              ECMA
+            </label>
+          </div>
+
         </div>
         <div class="card">
-          <h1 class="card-title card-header" >4) What is the name of the tool in google chrome that helps us manipulate js code?</h1>
-          <form class="form-group" action="index.html" method="post" >
-            <div class="radio">
-              <label>
-                <input type="radio" name="question4" id="question4" value="Javascript console">
-                Javascript console
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="question4" id="question4" value="Javascript consult">
-                Javascript consult
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="question4" id="question4" value="Javascript fiddle">
-                Javascript fiddle
-              </label>
-            </div>
-          </form>
+          <h1 class="card-title card-header">4) What is the name of the tool in google chrome that helps us manipulate js code?</h1>
+
+          <div class="radio">
+            <label>
+              <input type="radio" name="question4" id="question4" value="1">
+              Javascript console
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="question4" id="question4" value="0">
+              Javascript consult
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="question4" id="question4" value="0">
+              Javascript fiddle
+            </label>
+          </div>
+
         </div>
       </div>
       <button class="btn btn-warning" type="button" name="button" id="openLast">Next</button>
       <div class="card-deck" id="showLast">
         <div class="card">
-          <h1 class="card-title card-header" >5) What is the meaning of CSS?</h1>
-          <form class="form-group" action="index.html" method="post" >
-            <div class="radio">
-              <label>
-                <input type="radio" name="question5" id="question5" value="Cascading Style Sheets">
-                Cascading Style Sheets
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="question5" id="question5" value="Crisps Salt Sauce">
-                Crisps Salt Sauce
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="question5" id="question5" value="Canvas Seeking Service">
-                Canvas Seeking Service
-              </label>
-            </div>
-          </form>
-        </div>
+          <h1 class="card-title card-header">5) What is the meaning of CSS?</h1>
+
+          <div class="radio">
+            <label>
+              <input type="radio" name="question5" id="question5" value="1">
+              Cascading Style Sheets
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="question5" id="question5" value="0">
+              Crisps Salt Sauce
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="question5" id="question5" value="0">
+              Canvas Seeking Service
+            </label>
+          </div>
+    </form>
+  </div>
+  </div>
+  <button class="btn btn-primary" type="button" name="button" id="submit">Submit</button>
+  <button class="btn btn-primary" type="button" name="button" onclick="index.html" id="reload">Restart!</button>
+  <div class="card">
+    <br><br><br>
+    <em>You have scored:</em>
+    <p id="finalscore"></p>
+    <p id="message"></p>
+  </div>
+  </div>
+
+  </div>
+  <footer>
+    <div class="card-group" id="footer">
+      <div class="card">
+        <h1>About Us</h1>
+        <p>We are a school committed to scholarly excellence!!This test was organised by the tech club of the school.
+          We are located on the eastside of Ameruca along maua road.
+        </p>
       </div>
-      <button class="btn btn-primary" type="button" name="button" id="submit" onclick="checkResponse();">Submit</button>
-      <div id="afterSubmit">
-        <p id="message">You are awesome!!!</p>
+      <div class="card">
+        <h1>Contact Us</h1>
+        <ul>
+          <li>+254 717 304 712</li>
+          <li>020 0000 1111</li>
+          <li>elegancehigh@gmail.com</li>
+          <li>P.O Box 306 00517 Maua</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h1>Social</h1>
+        <ul>
+          <li>@elegancehigh on Twitter</li>
+          <li>Eleganceschool on facebook</li>
+        </ul>
       </div>
     </div>
-  </body>
+  </footer>
+</body>
 
 </html>

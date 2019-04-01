@@ -3,7 +3,13 @@
   padding: 12px 60px 12px 40px;
   opacity: 0.78;
 }
+#button:hover{
+  background-color: white;
+  color: black;
+}
 #submit{
+  display: flex;
+  justify-content: center;
   display: none;
 }
 #submit:hover{
@@ -20,9 +26,16 @@
   display: none;
 }
 #openNext{
+  display: flex;
+  justify-content: center;
   display: none;
 }
 #openLast{
+  display: flex;
+  justify-content: center;
+  display: none;
+}
+#reload{
   display: none;
 }
 #afterSubmit{
@@ -31,4 +44,22 @@
 body{
   background-image: url(https://www.faylib.org/sites/default/files/youth%20coding%20club.jpg);
   background-attachment: fixed;
+}
+.jumbotron h1{
+font-family: 'Luckiest Guy', cursive;
+font-size: 40px;
+}
+.jumbotron{
+  text-align: center;
+  background-color: green;
+}
+#footer{
+  padding: 10px 20px 20px 10px;
+  display: none;
+}
+.sidenav{
+  height: 100%;
+  width: auto;
+  position: fixed;
+  background-color: lightblue;
 }
