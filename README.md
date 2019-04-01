@@ -16,13 +16,13 @@
 ## BDD
 In order for you to use the program appropriately you need to enter an answer from the given choices.
 * This is the Behaviour of the app:
-Behaviour                         |Output
-----------------------------------|--------------------------------
-No answers given                  |Please retake your test!!
-All questions answered            |You have answered all questions
-Five correct answers              |You are awesooome!
-More than two correct answers     |Fairly done
-Less than two correct answers     |Please consider redoing the test
+Behaviour                      | Output
+-------------------------------| --------------------------------
+No answers given               | Please retake your test!!
+All questions answered         | You have answered all questions
+Five correct answers           | You are awesooome!
+More than two correct answers  | Fairly done
+Less than two correct answers  | Please consider redoing the test
 # Technologies Used
 * HTML.
 * Bootstrap 4 framework
