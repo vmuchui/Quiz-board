@@ -21,15 +21,18 @@
       <h1> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCVhkY811n7YUWNwZwRGduGiv6BXzoVNWF-Rujae5oMQe0u_L3" id="#logo" alt="logo" style="height:50px;width:50px"> Elegance High School.</h1>
       <h4>Congratulations for making it this far in your programming lessons. We are very proud to be part of your journey.Therefore as part of your journey we hereby give this quiz as a test of how much you have learnt in this course and as a member
         of the <em>let's code club</em>.<strong><u>GOOD LUCK</u>!!!</strong></h4>
-        <p>Please fill in your details before you start!</p>
-        <div class="card">
-          <form class="form-group" action="index.html" method="post">
-            <p>Name:<input type="name" name="Full name" text="enter your name" ></p>
-            <p>Date of exam:<input type="date" name="date" value=""></p>
-            <p>Email:<input type="email" name="email" text="your email"></p>
-          </form>
-        </div>
+      <p><em><strong>Please fill in your details before you start!</strong></em></p>
+
       <p class="disappear">Hey just click <button class="btn btn-success" type="button" name="button" id="button">here</button> to start your quiz!!!</p>
+    </div>
+    <div class="card">
+      <form class="form-group" action="index.html" method="post">
+        <label>
+          Name:<input type="name" name="Full name" id="name">
+          Date of exam:<input type="date" name="date" id="date">
+          Email:<input type="email" name="email" id="email">
+        </label>
+      </form>
     </div>
     <form class="form-group" action="index.html" method="post" id="questions">
       <div class="card-deck" id="showFirst">
@@ -38,7 +41,7 @@
 
           <div class="radio">
             <label>
-              <input type="radio" name="question1" id="question1" value="1">
+              <input type="radio" name="question1" id="question1" value="20">
               ECMAjavascript
             </label>
           </div>
@@ -73,7 +76,7 @@
           </div>
           <div class="radio">
             <label>
-              <input type="radio" name="question2" id="question2" value="1">
+              <input type="radio" name="question2" id="question2" value="20">
               Modulus
             </label>
           </div>
@@ -99,7 +102,7 @@
           </div>
           <div class="radio">
             <label>
-              <input type="radio" name="question3" id="question3" value="1">
+              <input type="radio" name="question3" id="question3" value="20">
               ECMA
             </label>
           </div>
@@ -110,7 +113,7 @@
 
           <div class="radio">
             <label>
-              <input type="radio" name="question4" id="question4" value="1">
+              <input type="radio" name="question4" id="question4" value="20">
               Javascript console
             </label>
           </div>
@@ -136,7 +139,7 @@
 
           <div class="radio">
             <label>
-              <input type="radio" name="question5" id="question5" value="1">
+              <input type="radio" name="question5" id="question5" value="20">
               Cascading Style Sheets
             </label>
           </div>

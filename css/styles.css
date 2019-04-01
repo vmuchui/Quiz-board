@@ -68,3 +68,12 @@ font-size: 40px;
 h4{
   font-family: 'ZCOOL XiaoWei', serif;
 }
+#name{
+  padding-top: 3px;
+}
+#email{
+  padding-top: 3px;
+}
+#date{
+  padding-top: 3px;
+}
