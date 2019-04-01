@@ -3,7 +3,7 @@
 ### Description
 * This is an on line quiz that helps you determine how far you are in terms of the content coverage in your Javascript.It contains questions that are meant to check your ability to retain knowledge.The answers to the questions are in multiple choices from which you should one.
 ## Setup installations & Requirements
-* Open the link  to the deployed site to preview it.
+* Open the link https://vmuchui.github.io/Quiz-board/ to the deployed site to preview it.
 ### To access the project locally:
 * Clone the repository from github to your desktop.
 * Open the index.html file and view it on your browser.
